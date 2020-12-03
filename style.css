@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,system,Segoe UI,Tahoma,-apple-system;
+}
+
+body{
+    background-color: #383838;
+}
+
+i{
+    color: yellow;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+}
+
+.record-container {
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 5%;
+    border-radius: 40px;
+}
+
+.record-title{
+   text-align: center;
+}
+
+.main-header {
+    font-size: 46px;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    width: 40%;
+    color: white;
+}
+
+.main-headline-index {
+    
+    color: white;
+    padding: 2%;
+    font-size: 46px;
+}
+
+.text {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.bgimg {
+   height: 300px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Penna.jpg);
+}
+
+.search-bar {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#Search-text-input{
+    padding: 8px;
+    width: 40%;
+}
+
+#search-button input
+{
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(193, 3, 3);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.top {
+    text-align: center;
+    list-style: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.logo {
+    height: 100px;
+    width: 125px;
+    float: left;
+}
